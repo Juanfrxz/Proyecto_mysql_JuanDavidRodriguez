@@ -439,7 +439,7 @@ CREATE TABLE area_ruta (
 
    
 
-📊 **Evaluaciones**
+# 📊 evaluaciones
 
 1. Obtener las notas teóricas, prácticas y quizzes de cada camper por módulo.
 
@@ -609,8 +609,7 @@ CREATE TABLE area_ruta (
    ```
 
    
-
-🧭 **Rutas y Áreas de Entrenamiento**
+### 🧭 Rutas y Áreas de Entrenamiento
 
 1. Mostrar todas las rutas de entrenamiento disponibles.
 
@@ -764,7 +763,7 @@ CREATE TABLE area_ruta (
     ```
 
     
-- **Trainers**
+### 🧭 Trainers
 
 1. Listar todos los entrenadores registrados.
 
@@ -923,8 +922,7 @@ CREATE TABLE area_ruta (
    ```
 
    
-
-🔍 **Consultas con Subconsultas y Cálculos Avanzados**
+### 🔍 Consultas con Subconsultas y Cálculos Avanzados
 
 1. Obtener los campers con la nota más alta en cada módulo.
 
@@ -1296,8 +1294,7 @@ CREATE TABLE area_ruta (
     ```
 
     
-
-🔁 **JOINs Básicos**
+### 🔁 JOINs Básicos
 
 1. Obtener los nombres completos de los campers junto con el nombre de la ruta a la que están inscritos.
 
@@ -1460,8 +1457,7 @@ CREATE TABLE area_ruta (
    ```
 
    
-
-🔀 **JOINs con condiciones específicas**
+### 🔀 JOINs con condiciones específicas
 
 1. Listar los campers que han aprobado todos los módulos de su ruta (nota\_final >= 60).
 
@@ -1629,8 +1625,8 @@ CREATE TABLE area_ruta (
    ```
 
    
+### 🔎 JOINs con funciones de agregación
 
-🔎 **JOINs con funciones de agregación**
 
 1. Obtener el promedio de nota final por módulo.
 
@@ -1792,8 +1788,7 @@ CREATE TABLE area_ruta (
     ```
 
     
-
-⚙ **PROCEDIMIENTOS ALMACENADOS**
+### ⚙ PROCEDIMIENTOS ALMACENADOS
 
 1. Registrar un nuevo camper con toda su información personal y estado inicial.
 
@@ -2340,8 +2335,7 @@ CREATE TABLE area_ruta (
    ```
 
    
-
-🧮 **FUNCIONES SQL**
+### 🧮 FUNCIONES SQL
 
 1. Calcular el promedio ponderado de evaluaciones de un camper.
 
@@ -2801,8 +2795,7 @@ CREATE TABLE area_ruta (
    ```
 
    
-
-🔁 **TRIGGERS SQL**
+### 🔁 TRIGGERS SQL
 
 1. Al insertar una evaluación, calcular automáticamente la nota final.
 
@@ -3221,8 +3214,8 @@ CREATE TABLE area_ruta (
     
 
 
+### 🚀 INSERT
 
-**INSERT**
 
 ```mysql
 INSERT INTO sede_campus (lugar) VALUES

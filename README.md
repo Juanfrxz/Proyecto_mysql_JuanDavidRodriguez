@@ -1,3 +1,17 @@
+## Índice
+1. [Consultas SQL](#consultas-sql)
+   - [Campers](#campers)
+   - [Evaluaciones](#evaluaciones)
+   - [Rutas y Áreas de Entrenamiento](#rutas-y-áreas-de-entrenamiento)
+   - [Trainers](#trainers)
+   - [Consultas con Subconsultas y Cálculos Avanzados](#consultas-con-subconsultas-y-cálculos-avanzados)
+   - [JOINs Básicos](#joins-básicos)
+   - [JOINs con condiciones específicas](#joins-con-condiciones-específicas)
+   - [JOINs con funciones de agregación](#joins-con-funciones-de-agregación)
+2. [Procedimientos Almacenados](#procedimientos-almacenados)
+3. [Funciones SQL](#funciones-sql)
+4. [Triggers SQL](#triggers-sql)
+5. [Insert](#insert)
 
 **BASE DE DATOS**
 
@@ -290,10 +304,8 @@ CREATE TABLE area_ruta (
 
 
 **Consultas SQL**
+### Campers
 
-**Implementar 100 consultas SQL que permitan extraer información relevante del sistema, enfocadas en:**
-
-- **Campers**
 1. Obtener todos los campers inscritos actualmente.
 
    ```mysql
@@ -753,6 +765,7 @@ CREATE TABLE area_ruta (
 
     
 - **Trainers**
+
 1. Listar todos los entrenadores registrados.
 
    ```mysql
@@ -911,7 +924,7 @@ CREATE TABLE area_ruta (
 
    
 
-🔍 **Consultas con Subconsultas y Cálculos Avanzados (20 ejemplos)**
+🔍 **Consultas con Subconsultas y Cálculos Avanzados**
 
 1. Obtener los campers con la nota más alta en cada módulo.
 
@@ -1284,7 +1297,7 @@ CREATE TABLE area_ruta (
 
     
 
-🔁 **JOINs Básicos (INNER JOIN, LEFT JOIN, etc.)**
+🔁 **JOINs Básicos**
 
 1. Obtener los nombres completos de los campers junto con el nombre de la ruta a la que están inscritos.
 
@@ -1780,16 +1793,7 @@ CREATE TABLE area_ruta (
 
     
 
-**Especificaciones adicionales:**
-
-- 20 consultas deben incluir subconsultas o cálculos avanzados.
-- Las consultas deben utilizar *joins*, agrupaciones y filtrados avanzados.
-
-**3. Procedimientos Almacenados**
-
-**Desarrollar 20 procedimientos almacenados para automatizar tareas esenciales, tales como:**
-
-⚙ **PROCEDIMIENTOS ALMACENADOS (20)**
+⚙ **PROCEDIMIENTOS ALMACENADOS**
 
 1. Registrar un nuevo camper con toda su información personal y estado inicial.
 
@@ -2337,15 +2341,7 @@ CREATE TABLE area_ruta (
 
    
 
-**Especificaciones técnicas:**
-
-- Los procedimientos deben garantizar la integridad referencial y ser eficientes.
-
-**4. Funciones SQL**
-
-**Crear 20 funciones que permitan realizar cálculos personalizados, como:**
-
-🧮 **FUNCIONES SQL (20)**
+🧮 **FUNCIONES SQL**
 
 1. Calcular el promedio ponderado de evaluaciones de un camper.
 
@@ -2806,11 +2802,7 @@ CREATE TABLE area_ruta (
 
    
 
-**5. Triggers SQL**
-
-**Implementar 20 triggers que respondan automáticamente a cambios en las tablas, como:**
-
-🔁 **TRIGGERS SQL (20)**
+🔁 **TRIGGERS SQL**
 
 1. Al insertar una evaluación, calcular automáticamente la nota final.
 
